@@ -1,17 +1,15 @@
 PODS:
-  - Kingfisher (5.15.8):
-    - Kingfisher/Core (= 5.15.8)
-  - Kingfisher/Core (5.15.8)
+  - Kingfisher (8.2.0)
   - ObjectMapper (4.2.0)
-  - Socket.IO-Client-Swift (15.2.0):
-    - Starscream (~> 3.1)
-  - Starscream (3.1.1)
+  - Socket.IO-Client-Swift (16.1.1):
+    - Starscream (~> 4.0.8)
+  - Starscream (4.0.8)
   - Wormholy (1.6.1)
 
 DEPENDENCIES:
-  - Kingfisher (= 5.15.8)
+  - Kingfisher (= 8.2.0)
   - ObjectMapper (= 4.2.0)
-  - Socket.IO-Client-Swift (= 15.2.0)
+  - Socket.IO-Client-Swift (= 16.1.1)
   - Wormholy (= 1.6.1)
 
 SPEC REPOS:
@@ -23,12 +21,12 @@ SPEC REPOS:
     - Wormholy
 
 SPEC CHECKSUMS:
-  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  Kingfisher: 323e5c4ec7983aaace12af655a7b51a7f88a599d
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
-  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
-  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Socket.IO-Client-Swift: 3614bea82ba005df1c2ff01154f4004993e05ad7
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
   Wormholy: 0fd599c7efb09bb96af8cdfbe81a716932caf67e
 
-PODFILE CHECKSUM: 5cf34d48cf572c570f18726cbda69c6e855b5f97
+PODFILE CHECKSUM: 1d365cfb5896fc950a0f3c771e2bd2170a5674e6
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.16.2
