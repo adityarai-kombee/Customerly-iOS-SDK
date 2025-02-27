@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.frameworks  = "UIKit", "Foundation", "AudioToolbox"
   s.requires_arc = true
   s.dependency 'ObjectMapper', '4.2.0'
-  s.dependency 'Kingfisher', '5.15.8'
-  s.dependency 'Socket.IO-Client-Swift', '15.2.0'
+  s.dependency 'Kingfisher', '8.2.0'
+  s.dependency 'Socket.IO-Client-Swift', '16.1.1'
   s.swift_versions = ['4.2', '5.0']
 end
