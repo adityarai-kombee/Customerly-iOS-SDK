@@ -107,7 +107,10 @@ class CySocket: NSObject {
         
         if let json = typingSocketModel?.toJSON(){
             let socket = socketManager?.defaultSocket
-            socket?.emit(CySocketEvent.typing.rawValue, with: [json])
+            socket?.emit(CySocketEvent.typing.rawValue, with: [json]) {
+                // Completion handler (can be empty or include logging)
+                print("Typing event emitted successfully")
+            }
         }
     }
     
@@ -119,7 +122,10 @@ class CySocket: NSObject {
         
         if let json = messageSocketModel?.toJSON(){
             let socket = socketManager?.defaultSocket
-            socket?.emit(CySocketEvent.message.rawValue, with: [json])
+            socket?.emit(CySocketEvent.message.rawValue, with: [json]){
+                // Completion handler (can be empty or include logging)
+                print("Typing event emitted successfully")
+            }
         }
     }
     
@@ -132,7 +138,10 @@ class CySocket: NSObject {
         
         if let json = seenSocketModel?.toJSON(){
             let socket = socketManager?.defaultSocket
-            socket?.emit(CySocketEvent.message_seen.rawValue, with: [json])
+            socket?.emit(CySocketEvent.message_seen.rawValue, with: [json]){
+                // Completion handler (can be empty or include logging)
+                print("Typing event emitted successfully")
+            }
         }
     }
     
