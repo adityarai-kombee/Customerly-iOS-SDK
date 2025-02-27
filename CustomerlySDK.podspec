@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CustomerlySDK"
-  s.version      = "3.2.3"
+  s.version      = "3.2.4"
   s.summary      = "customerly.io is the perfect tool to getting closer to your customers"
   s.description  = <<-DESC
   					customerly.io is the perfect tool to getting closer to your customers. Help them where they are with the customer support widget. Manage your audience based on their behaviours, build campaigns and automations.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache License 2.0", :file => "LICENSE" }
   s.author             = { "Harry Camelback" => "55247318+harrycamelback@users.noreply.github.com" }
   s.social_media_url   = "https://www.facebook.com/customerly/"
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "12.0"
   s.source       = { :git => "https://github.com/customerly/Customerly-iOS-SDK.git", :tag => s.version }
   s.source_files  = "CustomerlySDK/Library/**/*.swift"
   s.resource_bundles = {
